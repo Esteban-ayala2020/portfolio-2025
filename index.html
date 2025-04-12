@@ -12,21 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="scroll">
     <header class="encabezado">
         <nav class="navegacion">
             <a class="navegacion_enlace" href="#presentacion">
                 <h2 class="navegacion_titulo">Informatorio</h2>
             </a>
-            <ul class="">
-                <li class="enlaces_item">
-                    <a class="enlaces_enlace" href="#presentacion">Inicio</a>
+            <ul class="enlaces">
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#presentacion">Inicio</a>
                 </li>
-                <li class="enlaces_item">
-                    <a class="enlaces_enlace" href="#sobre-mi">Sobre mi</a>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
                 </li>
-                <li class="enlaces_item">
-                    <a class="enlaces_enlace" href="#proyectos">Proyectos</a>
+                <li class="enlaces__item">
+                    <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
                 </li>
 
             </ul>
@@ -35,11 +35,11 @@
 
     <main class="principal">
         <section class="presentacion" id="presentacion">
-            <div class="presentacion_contenedor_info">
+            <div class="presentacion__contenedor_info">
                 <h1 class="presentacion_titulo">Soy Desarrollador</h1>
                 <p class="presentacion_parrafo">Esta es mi primera Página creada a partir de la Primerra Etapa del
                     Informatorio CHACO.</p>
-                <div class="presentacion_contenedor_botones">
+                <div class="presentacion__contenedor_botones">
                     <a href="#sobre-mi" class="boton" role="button">Sobre mi</a>
                     <a href="./assets/docs/CV.pdf" target="_blank" class="boton boton_oscuro" role="button">Descargar
                         CV</a>
@@ -47,7 +47,7 @@
             </div>
 
         </section>
-        <article class="articulo sobre_mi" id="sobre-mi">
+        <article class="articulo_sobre_mi" id="sobre-mi">
             <h2 class="articulo__titulo">Un poco sobre mi</h2>
             <div class="articulo__contenedor_descripciones">
                 <section class="seccion_descripcion">
@@ -140,7 +140,8 @@
                         </p>
                     </div>
                     <div class="seccion_descripcion__porta_retrato">
-                        <img class="seccion_descripcion__image" src="./assets/images/personales/IMG_20250216_000555034.jpg"
+                        <img class="seccion_descripcion__imagen seccion_descripcion__imagen_variante"
+                            src="./assets/images/personales/IMG_20250216_000555034.jpg"
                             alt="foto mientras me encontraba en una reunion de trabajo" title="selfie en una reunion" />
                     </div>
                 </section>
